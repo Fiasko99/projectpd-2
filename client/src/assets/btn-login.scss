@@ -1,0 +1,23 @@
+.login-btn {
+  display: inline;
+  position: absolute;
+  right: 0;
+  top: 0;
+  cursor: pointer;
+  border-left: 1px solid $btn;
+  border-bottom: 1px solid $btn;
+  border-bottom-left-radius: 8px;
+  padding: 6px 12px;
+  font-weight: bolder;
+  font-size: 20px;
+  transition: .6s;
+  color: $btn !important;
+  &:hover {
+    background: $btn;
+    color:$bgheader !important;
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+}

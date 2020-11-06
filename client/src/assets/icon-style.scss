@@ -1,0 +1,26 @@
+.icon {
+    display: inline-block;
+    cursor: pointer;
+    .line-1,
+    .line-2,
+    .line-3 {
+        width: 35px;
+        height: 5px;
+        background-color: $line_icon;
+        margin: 6px 0;
+        transition: 0.6s ease-in-out;
+    }
+}
+.change .line-1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .line-2 {
+    opacity: 0;
+}
+
+.change .line-3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
